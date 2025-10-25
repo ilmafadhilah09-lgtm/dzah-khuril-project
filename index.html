@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>dzah khuril project</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- Dzah Khuril - HTML -->
+<canvas id="bgCanvas"></canvas>
+
+<div class="container" id="intro">
+  <h1>Hai Dzah Khuril, aku mau sampaikan sesuatu yang hangat ✨</h1>
+  <button onclick="goToQuiz()">Klik!</button>
+</div>
+
+<div class="container hidden" id="quiz">
+  <h1>Hari ini spesial — kira-kira siapa yang selalu memberi pencerahan tiap halaqoh?</h1>
+  <div class="btn-group">
+    <button onclick="finish()">A. Dzah Khuril</button>
+    <button onclick="finish()">B. YOU?!</button>
+  </div>
+</div>
+
+<div class="container hidden" id="final">
+  <div id="final-card">
+    <p id="final-text"></p>
+  </div>
+</div>
+
+<audio id="typing-sound" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_2c73a7.mp3?filename=keyboard-typing-2-30355.mp3"></audio>
+<audio id="bg-music" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_01df16.mp3?filename=hacker-intro-113985.mp3" loop></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="dzah-khuril.js"></script>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

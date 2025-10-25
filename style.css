@@ -1,0 +1,11 @@
+/* Dzah Khuril - CSS */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Courier New',monospace;overflow:hidden;background:linear-gradient(180deg,#f6f2fb,#fffafb);color:#2d0036}
+#bgCanvas{position:fixed;inset:0;z-index:-1}
+.container{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px}
+.hidden{display:none}
+h1{color:#3b0b4f;font-size:1.6rem;margin-bottom:16px;text-shadow:0 0 12px rgba(59,11,79,0.08)}
+button{background:linear-gradient(90deg,#bfa6ff,#d9baff);border:none;padding:12px 24px;border-radius:10px;cursor:pointer;font-weight:700;color:#21002a;box-shadow:0 8px 20px rgba(59,11,79,0.08)}
+button:hover{transform:scale(1.05)}
+#final-card{background:rgba(255,255,255,0.96);padding:30px;border-radius:16px;box-shadow:0 10px 30px rgba(45,0,54,0.08);max-width:760px}
+#final-text{white-space:pre-line;font-size:1.12rem;line-height:1.6;color:#2d0036}
